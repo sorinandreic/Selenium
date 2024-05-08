@@ -1,10 +1,10 @@
-Feature: Interact with multiple elements on page.
+Feature: Login and finalize a purchase.
 
   Scenario: Login as a Standard User.
     Given user navigates to the main page
     And the user enters a valid username and password
     When user clicks on Login button
-    Then the user is logged in
+    Then the user is logged in successfully
 
 
   Scenario: Login as a Standard User and complete a purchase.
